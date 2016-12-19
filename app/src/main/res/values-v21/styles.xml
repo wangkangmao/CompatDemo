@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--
+        Base application theme for API 14+. This theme completely replaces
+        AppBaseTheme from BOTH res/values/styles.xml and
+        res/values-v11/styles.xml on API 14+ devices.
+    -->
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light">
+        <!-- API 14 theme customizations can go here. -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        <item name="android:textColor">@color/mytextcolor</item>
+        <item name="colorPrimary">@color/colorPrimary_pink</item>
+        <item name="colorPrimaryDark">@color/colorPrimary_pinkDark</item>
+        <item name="android:windowBackground">@color/background</item>
+        <item name="colorAccent">#906292</item>
+        <!-- 设置虚拟导航栏背景颜色 ，5.x的新特性-->
+        <item name="android:navigationBarColor">@color/colorPrimary_pink</item>
+    </style>
+</resources>

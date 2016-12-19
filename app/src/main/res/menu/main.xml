@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.ricky.md.theme.MainActivity" >
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:icon="@android:drawable/ic_menu_set_as"
+        android:title="设置"/>
+    <item
+        android:id="@+id/action_share"
+        android:orderInCategory="101"
+        android:icon="@android:drawable/ic_menu_share"
+        android:title="分享"/>
+    <item
+        android:id="@+id/action_new"
+        android:orderInCategory="102"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="添加"/>
+
+</menu>

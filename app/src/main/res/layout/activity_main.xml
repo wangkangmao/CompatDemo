@@ -27,7 +27,7 @@
                 android:layout_marginLeft="24dp"
                 android:layout_marginTop="23dp"
                 android:onClick="showDialog"
-                android:text="对话框"/>
+                android:text="Dialog"/>
 
             <Button
                 android:id="@+id/button2"
@@ -36,7 +36,7 @@
                 android:layout_marginLeft="24dp"
                 android:layout_marginTop="23dp"
                 android:onClick="showPopup"
-                android:text="泡泡窗口ListPopupWindow"/>
+                android:text="ListPopupWindow"/>
 
             <Button
                 android:id="@+id/button3"
@@ -52,14 +52,14 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="24dp"
                 android:layout_marginTop="23dp"
-                android:text="呵呵"/>
+                android:text="EditText"/>
 
             <android.support.v7.widget.AppCompatEditText
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="24dp"
                 android:layout_marginTop="23dp"
-                android:text="呵呵"/>
+                android:text="AppCompatEditText"/>
 
             <TextView
                 android:id="@+id/textView2"
